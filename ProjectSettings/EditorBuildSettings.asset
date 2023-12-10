@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MainMenu.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Belajar Baru.unity
+    guid: 1a541b7b5e253ff45b99e5af74000b5f
   - enabled: 1
     path: Assets/Scenes/Quiz.unity
     guid: 86f3ea267c9573f40bb1fe32ba112d9b

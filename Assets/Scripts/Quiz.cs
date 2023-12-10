@@ -13,9 +13,9 @@ public class Quiz : MonoBehaviour
     private string pertanyaan;
     public TextMeshProUGUI pertanyaanTMP;
     [SerializedDictionary("Tombol", "Benar")]
-    [HideInInspector]  public SerializedDictionary<Button, bool> kunciJawaban;
+    public SerializedDictionary<Button, bool> kunciJawaban;
     [SerializedDictionary("Tombol", "Teks")]
-    [HideInInspector] public SerializedDictionary<Button, string> teksJawaban;
+    public SerializedDictionary<Button, string> teksJawaban;
 
     [HideInInspector] public UnityEvent onRightAnswer;
     [HideInInspector] public UnityEvent onFalseAnswer;
